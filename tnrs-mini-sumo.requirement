@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="requirement2markdown.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="requirement2asciidoc.xsl" ?>
 <!--Capella_Version_1.3.1-->
 <org.polarsys.capella.core.data.requirement:RequirementsPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.requirement="http://www.polarsys.org/capella/core/requirement/1.3.0"
@@ -50,7 +50,7 @@
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="6b4deb6b-4f3e-4a9b-81aa-4f56e49953d2" description="Le juge peut décider de remplacer le Dohyo si nécessaire pendant les jeux."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="70076149-af23-4ec5-9617-fe6ccf598d1e" description="![](sumo-fig-p2.png)"/>
+          id="70076149-af23-4ec5-9617-fe6ccf598d1e" description="&#10;image::sumo-fig-p2.png[]"/>
     </ownedRequirementPkgs>
     <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
         id="9144c616-e308-4828-9b44-f77d9ddc4b3c" name="Article4" description="en dehors du Dohyo"
