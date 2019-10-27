@@ -1,0 +1,13 @@
+all: tnrs-mini-sumo.pdf
+
+serve:
+	python3 -m http.server 8000 --bind 127.0.0.1 
+
+tnrs-mini-sumo.md: tnrs-mini-sumo.requirement requirement2markdown.xsl
+	xsltproc requirement2markdown.xsl tnrs-mini-sumo.requirement > $@
+
+tnrs-mini-sumo.pdf: tnrs-mini-sumo.md
+	pandoc $< -o $@
+
+clean:
+	rm -f *~ tnrs-mini-sumo.md tnrs-mini-sumo.pdf
