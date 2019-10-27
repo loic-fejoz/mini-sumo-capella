@@ -6,8 +6,11 @@ serve:
 tnrs-mini-sumo.md: tnrs-mini-sumo.requirement requirement2markdown.xsl
 	xsltproc requirement2markdown.xsl tnrs-mini-sumo.requirement > $@
 
-tnrs-mini-sumo.pdf: tnrs-mini-sumo.md
-	pandoc $< -o $@
+tnrs-mini-sumo.adoc: tnrs-mini-sumo.requirement requirement2asciidoc.xsl
+	xsltproc requirement2asciidoc.xsl tnrs-mini-sumo.requirement > $@
+
+tnrs-mini-sumo.pdf: tnrs-mini-sumo.adoc
+	asciidoctor-pdf -o $@ $<
 
 clean:
-	rm -f *~ tnrs-mini-sumo.md tnrs-mini-sumo.pdf
+	rm -f *~ tnrs-mini-sumo.md tnrs-mini-sumo.pdf tnrs-mini-sumo.adoc

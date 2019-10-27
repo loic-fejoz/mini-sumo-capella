@@ -8,10 +8,10 @@
   <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
       id="375f96aa-172a-43dd-b17c-f5820c3eef0f" description="Les règles suivies correspondent à celle des concours de robots mini-Sumo en vigueur au&#xA;Japon et aux Etats Unis, avec quelques modifications. Seuls les robots autonomes sont&#xA;acceptés."/>
   <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-      id="bedd6f2f-11c8-4647-9091-1dbe4c85bd06" name="Chapitre 1" description="Définition d’un combat"
+      id="bedd6f2f-11c8-4647-9091-1dbe4c85bd06" name="Chapitre1" description="Définition d’un combat"
       level="1">
     <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-        id="9aa138c0-bda2-4efa-b321-39d751a9b5ec" name="Article 1" description="définition"
+        id="9aa138c0-bda2-4efa-b321-39d751a9b5ec" name="Article1" description="définition"
         level="2">
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="bb5c1290-e98e-4f0e-ae25-b5b38bf42fb9" description="Un combat oppose deux robots mini-Sumo, sur un cercle de Sumo (Dohyo) en accord&#xA;avec des règles."/>
@@ -24,65 +24,71 @@
     </ownedRequirementPkgs>
   </ownedRequirementPkgs>
   <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-      id="74eae67a-16dc-4480-9624-37e212cbf760" name="Chapitre 2" description="Caractéristiques d’un Dohyo"
+      id="74eae67a-16dc-4480-9624-37e212cbf760" name="Chapitre2" description="Caractéristiques d’un Dohyo"
       level="1">
     <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-        id="02d89f8c-8f29-473f-a455-20802b5f66ea" name="Article 2" description="définition de l’intérieur d’un Dohyo"
+        id="02d89f8c-8f29-473f-a455-20802b5f66ea" name="Article2" description="définition de l’intérieur d’un Dohyo"
         level="2">
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="409c3c5e-34b5-430e-9aa7-e53a8660cd4a" description="L’intérieur d’un Dohyo représente la surface du Dohyo, ce qui inclut la bordure."/>
     </ownedRequirementPkgs>
     <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-        id="768618e7-3cfb-43ed-b9a0-17e4181de778" name="Article 3" description="le Dohyo"
+        id="768618e7-3cfb-43ed-b9a0-17e4181de778" name="Article3" description="le Dohyo"
         level="2">
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="2c80c88d-1d0b-47f0-b764-796abab15151" name="" description="Le Dohyo est un cercle de 77cm de diamètre sur 22mm d’épaisseur minimum."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="ae077c4a-df55-4d59-b844-66d9b6f8981d" description="Il est&#xA;réalisé en bois recouvert d’une plaque d’aluminium de 5mm d’épaisseur."/>
+	      id="ae077c4a-df55-4d59-b844-66d9b6f8981d" description="Il est&#xA;réalisé en bois recouvert d’une plaque d’aluminium de 5mm d’épaisseur.
+&#10;
+"/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="d8d12fa0-ce5d-4e50-806e-048d085a5890" description="* La surface du Dohyo est lisse et peinte en noir mat"/>
+          id="d8d12fa0-ce5d-4e50-806e-048d085a5890" description="* La surface du Dohyo est lisse et peinte en noir mat."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="7abfff47-d6a1-49d7-84c6-83bcd27902b5" description="* Les lignes de départ (Shikiri-sen) sont indiquées par deux lignes parallèles marrons&#xA;de 10cm de long sur 1cm de large, placé à 5cm du centre du Dohyo."/>
+          id="7abfff47-d6a1-49d7-84c6-83bcd27902b5" description="* Les lignes de départ (Shikiri-sen) sont indiquées par deux lignes parallèles marrons de 10cm de long sur 1cm de large, placé à 5cm du centre du Dohyo."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="37d12443-adf8-4119-bda8-17f7ec57d741" description="* Le bord extérieur est indiqué par un cercle de 2,5cm, peint en blanc brillant,&#xA;délimitant le Dohyo. Le cercle blanc est considéré comme inclus dans le Dohyo."/>
+          id="37d12443-adf8-4119-bda8-17f7ec57d741" description="* Le bord extérieur est indiqué par un cercle de 2,5cm, peint en blanc brillant, délimitant le Dohyo. Le cercle blanc est considéré comme inclus dans le Dohyo."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="6b4deb6b-4f3e-4a9b-81aa-4f56e49953d2" description="Le juge peut décider de remplacer le Dohyo si nécessaire pendant les jeux."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="70076149-af23-4ec5-9617-fe6ccf598d1e" description="![](sumo-fig-p2.png)"/>
     </ownedRequirementPkgs>
     <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-        id="9144c616-e308-4828-9b44-f77d9ddc4b3c" name="Article 4" description="en dehors du Dohyo"
+        id="9144c616-e308-4828-9b44-f77d9ddc4b3c" name="Article4" description="en dehors du Dohyo"
         level="2">
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="57012de2-acba-42a7-ab14-0625aa58e985" description="La zone en dehors du Dohyo s’étend jusqu’à 60cm au-delà des limites du Dohyo."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="d2e2145c-3c4e-4e1f-a9e5-cca06e52df0e" description="Sa&#xA;couleur ne doit pas être blanche."/>
+          id="d2e2145c-3c4e-4e1f-a9e5-cca06e52df0e" description="Sa couleur ne doit pas être blanche."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="c34f9a81-a8cb-4819-ae9f-727a95cecb41" description="Il n’y a pas de restrictions sur la nature et la forme de cette&#xA;zone, dans la mesure où elle respecte l’esprit des règles."/>
+          id="c34f9a81-a8cb-4819-ae9f-727a95cecb41" description="Il n’y a pas de restrictions sur la nature et la forme de cette zone, dans la mesure où elle respecte l’esprit des règles."/>
     </ownedRequirementPkgs>
   </ownedRequirementPkgs>
   <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-      id="37841c0e-b30a-4af8-9919-a33a33c9d76c" name="Chapitre 3" description="Caractéristiques des robots"
+      id="37841c0e-b30a-4af8-9919-a33a33c9d76c" name="Chapitre3" description="Caractéristiques des robots"
       level="1">
     <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-        id="c20ef0ce-e302-4c12-8d84-1db76fce6a48" name="Article 5" description="caractéristiques"
+        id="c20ef0ce-e302-4c12-8d84-1db76fce6a48" name="Article5" description="caractéristiques"
         level="2">
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="841cc5bb-5df5-4339-901d-36909c4d1f58" description="Les dimensions initiales sont de 10cm x 10cm de coté pour une hauteur sans limite."/>
+	      id="841cc5bb-5df5-4339-901d-36909c4d1f58" description="Les dimensions initiales sont de 10cm x 10cm de coté pour une hauteur sans limite.
+&#10;
+"/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="11aae839-4ab5-4536-a6e1-09ae1ef6d57c" description="* Cette classe de robots correspond à celle des moins de 500g."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="9b2b7e79-51fb-4ca5-9038-5abcdd028129" description="* Les robots sont autonomes."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="5ba3a526-6f6d-463f-9c22-a63dd1b48188" description="* Ils doivent démarrer sur ordre de l'arbitre, par réception d'un code infrarouge d'une&#xA;télécommande."/>
+          id="5ba3a526-6f6d-463f-9c22-a63dd1b48188" description="* Ils doivent démarrer sur ordre de l'arbitre, par réception d'un code infrarouge d'une télécommande."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="453ed896-4a7a-4686-be21-3e7765cdfd60" description="* La source d’énergie est impérativement électrique de type piles ou accumulateurs."/>
     </ownedRequirementPkgs>
     <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-        id="540803dc-2612-457b-89e0-785d3c3604fd" name="Article 6" description="limitations sur le design du robot"
+        id="540803dc-2612-457b-89e0-785d3c3604fd" name="Article6" description="limitations sur le design du robot"
         level="2">
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="ade9fc46-dde7-4bfd-8d62-1e0498526529" description="Un robot ne doit pas gêner le fonctionnement de son adversaire, par des projections ou&#xA;lumières."/>
+			 id="ade9fc46-dde7-4bfd-8d62-1e0498526529" description="Un robot ne doit pas gêner le fonctionnement de son adversaire, par des projections ou lumières.
+&#10;
+"/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="a306e849-f9f5-47f4-b005-aa1b5f312434" description="* Un robot ne doit pas dégrader le Dohyo"/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
@@ -92,20 +98,20 @@
     </ownedRequirementPkgs>
   </ownedRequirementPkgs>
   <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-      id="d94a6047-4071-497a-be6a-2996d1abba08" name="Chapitre 4" description="Les rencontres"
+      id="d94a6047-4071-497a-be6a-2996d1abba08" name="Chapitre4" description="Les rencontres"
       level="1">
     <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-        id="1b10d20b-22fc-4e76-9274-34e0bdade0d6" name="Article 7" description="principes des rencontres"
+        id="1b10d20b-22fc-4e76-9274-34e0bdade0d6" name="Article7" description="principes des rencontres"
         level="2">
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="ec407a09-7ef1-42c2-8966-95fde00b8620" description="* Un combat consiste en 3 rencontres de 3 minutes chacune. Le premier à remporter&#xA;2 points Yuko est déclaré vainqueur du combat."/>
+          id="ec407a09-7ef1-42c2-8966-95fde00b8620" description="* Un combat consiste en 3 rencontres de 3 minutes chacune. Le premier à remporter 2 points Yuko est déclaré vainqueur du combat."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
           id="5caddb92-8927-4dff-94ff-fbb68fb5db28" description="* Le robot ayant le plus de points Yuko à la fin d’un combat est déclaré vainqueur."/>
       <ownedRequirements xsi:type="org.polarsys.capella.core.data.requirement:SystemUserRequirement"
-          id="fd6fac3b-44cb-4700-8004-a233cb1ca2ff" description="* Quand aucun des robots n’a reçu de points Yuko ou les deux robots ont 1 point&#xA;Yuko, le vainqueur est désigné par les juges. S’il n’existe pas de supériorité&#xA;évidente et aucun vainqueur n’a pu être désigné, une rencontre supplémentaire est&#xA;jouée."/>
+          id="fd6fac3b-44cb-4700-8004-a233cb1ca2ff" description="* Quand aucun des robots n’a reçu de points Yuko ou les deux robots ont 1 point&#xA;Yuko, le vainqueur est désigné par les juges. S’il n’existe pas de supériorité évidente et aucun vainqueur n’a pu être désigné, une rencontre supplémentaire est jouée."/>
     </ownedRequirementPkgs>
   </ownedRequirementPkgs>
   <ownedRequirementPkgs xsi:type="org.polarsys.capella.core.data.requirement:RequirementsPkg"
-      id="65bb423f-41d3-4abb-9691-b79a0e3b35d0" name="Chapitre 5" description="La procédure d’une rencontre"
+      id="65bb423f-41d3-4abb-9691-b79a0e3b35d0" name="Chapitre5" description="La procédure d’une rencontre"
       level="1"/>
 </org.polarsys.capella.core.data.requirement:RequirementsPkg>
